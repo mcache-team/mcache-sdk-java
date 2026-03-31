@@ -13,8 +13,8 @@ import java.util.List;
  * Hand-written proto3 message classes for mcache.proto.
  * Each class implements manual wire-format encode/decode to avoid protoc.
  *
- * Proto3 wire types: 0=varint, 2=length-delimited
- * Field tags: (field_number << 3) | wire_type
+ * Proto3 wire types: 0=varint, 2=length-delimited.
+ * Field tag = (field_number &lt;&lt; 3) | wire_type
  */
 public final class Messages {
 
